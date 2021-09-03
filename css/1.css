@@ -15,6 +15,7 @@ body{
     height: 300px;
     position: relative;
     transition: .5s;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.3);
 }
 .card img{
     width: 100%;
@@ -23,8 +24,9 @@ body{
     object-position: 100% 20%;
     position:absolute;
     z-index: 1;
-    transition: .5s;
+    transition: .7s;
     transform-origin: left;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.3);
 }
 .card img:nth-child(1){
     z-index: 2;
